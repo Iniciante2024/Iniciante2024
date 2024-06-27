@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Menu Lateral Sidenav</title>
+	<style>
+
+	body{
+		font-family: sans-serif;
+		margin: 0px;
+	} 
+	a{
+		text-decoration: none;
+	}
+
+	header{
+		background-color: #CA98D1;
+		padding: 15px;
+	}
+	.btn-abrir{
+		color: white;
+		font-size: 30px;
+	}
+	nav{
+		height: 100%;
+		width: 20px;
+		background-color: #CA98D1;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		overflow: hidden;
+		transition: width 0.3s;
+	}
+
+	nav a {
+		color: white;
+		font-size: 20px;
+		display: block;
+		padding: 12px 10px 12px 32px;
+}
+ 
+ nav a:hover {
+ 	color: #CA98D1;
+ 	background-color: white;
+ }
+
+ main{
+ 	padding: 10px;
+ 	transition: margin-left 0.5s;
+ }
+
+
+
+
+
+	</style>
+</head>
+<body>
+	<header>
+		<a href="#" class="btn-abrir" onclick="abrirMenu()">&#9776;</a>
+	</header>
+	<nav id="menu">
+		<a href="#">&times;fechar</a>
+		<a href="#">Home</a>
+		<a href="#">Sobre</a>
+		<a href="#">Contato</a>
+		<a href="#">Nossa Politica</a>
+		<a href="#">Nosso Valores</a>
+		<a href="#">Nossa Missão</a>
+		<a href="#">Nossos Produtos</a>
+		<a href="#">Deixe Sua Sugestão</a>
+		<a href="#">Suporte</a>
+		<a href="#">Dia de Promoção</a>
+		
+	</nav>
+     <main></main>
+
+     <script>
+     	function abrirMenu(){
+     	document.getElementById('').style.width = '250px';
+     	}
+     		
+     </script>
+     	
+
+
+</body>
+</html>
